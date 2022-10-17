@@ -1,0 +1,34 @@
+#include<stdio.h>
+/*
+//Ekrana Hello World Yazdiran Kod
+   int main(){
+   printf("Hello World");  
+  
+ //Iki sayiyi Toplayip Ekrana Yazdiran Kod
+ //Ve Klavyeden Deger Okuma
+    int x,y,toplam;
+    printf("\nIlk sayiyi giriniz:");
+    scanf("%d",&x);
+    printf("\nIkinci sayiyi Giriniz:");
+    scanf("%d",&y);
+    toplam=x+y;
+    printf("\nGirilen Sayilarin Toplami:%d",toplam);
+  
+ //Kullanicidan Bugun'un Tarihini Alarak Kac Yasinda Oldugunu Hesaplayan Kod
+ 
+    int bugun,dogum;
+    printf("Bugun'un Tarihini Giriniz:");
+    scanf("%d",&bugun);
+    printf("\nHangi Yilda Dogdugunuzu Giriniz:");
+    scanf("%d",&dogum);
+    printf("\nYasiniz:%d",bugun-dogum);
+
+//a2+b2+3c denklemini hesaplayan kod
+    int a,b,c;
+    printf("Lutfen a b ve c degerlerini sira ile giriniz");
+    scanf("%d%d%d",&a,&b,&c);
+    printf("Denklem Sonucu:%d",a*a+b*b+3*c);
+  
+  
+  
+  }
