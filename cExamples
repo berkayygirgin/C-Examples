@@ -1,11 +1,13 @@
 #include<stdio.h>
-/*
+
 //Ekrana Hello World Yazdiran Kod
+  
    int main(){
    printf("Hello World");  
   
  //Iki sayiyi Toplayip Ekrana Yazdiran Kod
  //Ve Klavyeden Deger Okuma
+  
     int x,y,toplam;
     printf("\nIlk sayiyi giriniz:");
     scanf("%d",&x);
@@ -25,10 +27,7 @@
 
 //a2+b2+3c denklemini hesaplayan kod
     int a,b,c;
-    printf("Lutfen a b ve c degerlerini sira ile giriniz");
+    printf("\nLutfen a b ve c degerlerini sira ile giriniz");
     scanf("%d%d%d",&a,&b,&c);
-    printf("Denklem Sonucu:%d",a*a+b*b+3*c);
-  
-  
-  
+    printf("\nDenklem Sonucu:%d",a*a+b*b+3*c);
   }
